@@ -18,4 +18,5 @@ use App\Http\Controllers\Frontend\AboutController;
 Route::name('frontend.')->group(function() {
     Route::get('/', [HomeController::class, 'index'])->name('home.index');
     Route::get('about', [AboutController::class, 'index'])->name('about.index');
+    Route::get('send-mail', [AboutController::class, 'sendMail'])->name('about.sendmail');
 });

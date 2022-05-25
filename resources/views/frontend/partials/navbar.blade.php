@@ -9,6 +9,7 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                 <li class="nav-item"><a class="nav-link {{ $name === 'frontend.home.index' ? 'active' : '' }}" aria-current="page" href="{{ route('frontend.home.index') }}">Home</a></li>
                 <li class="nav-item"><a class="nav-link {{ $name === 'frontend.about.index' ? 'active' : '' }}" href="{{ route('frontend.about.index') }}">About</a></li>
+                <li class="nav-item"><a class="nav-link {{ $name === 'frontend.about.sendmail' ? 'active' : '' }}" href="{{ route('frontend.about.sendmail') }}">Send mail</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
